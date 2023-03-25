@@ -4,7 +4,7 @@ export default function Root({ children }) {
   return (
     <html>
       <head>
-        <title>Hello World</title>
+        <title>Test</title>
       </head>
       <body style={{ background: '#000', color: '#FFF' }}>
         {children}
@@ -13,3 +13,6 @@ export default function Root({ children }) {
     </html>
   )
 }
+
+/** Will re-mount the page component on search param update */
+export const dynamic = 'force-dynamic'
