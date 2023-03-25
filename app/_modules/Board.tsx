@@ -13,7 +13,6 @@ export default function Board({ data }) {
   return (
     <div style={{ margin: '64px' }}>
       <h1>Page</h1>
-      <p>Renders: {renderCounter.current}</p>
       <code>Data: {JSON.stringify(data.threads[0].id)}</code>
     </div>
   )
